@@ -1,0 +1,165 @@
+html, body {
+    font-family: Shell Futura,Futura,Arial,sans-serif;
+    margin: 0px;
+    height: 100%;
+    color: #595959;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.main-container {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(246, 246, 246);
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    width: 100%;
+    background-image: url("assets/background.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+.login {
+    display: flex;
+    gap: 15px;
+}
+
+.login-button {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.dav-login {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 14px 10px 10px -7px rgba(0,0,0,0.4);
+}
+
+.dav-login .title {
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.dav-form {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+}
+
+.dav-text-input {
+    height: 30px;
+    min-width: 200px;
+    border-color: grey;
+    padding:5px;
+    font-size: 1rem;
+}
+
+.dav-button {
+    color: black;
+    background-color:#fbce07;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 0px;
+}
+
+.google {
+    background: #4589f2;
+    color: #fff;
+}
+.dav-button-link {
+    background: white;
+    border-style: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dav-divider {
+    height: 1px;
+    background: grey;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dav-reg-message {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 30px;
+}
+
+.dav-reg-message .header {
+    margin-bottom: 20px;
+}
+
+.dav-reg-message .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.dav-reg-message .message {
+    
+    margin-bottom: 20px;
+}
+
+.dav-reg-message .list {
+    padding: 20px;
+    
+}
+
+.reg-message-title {
+    color: #0097A9;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.tile {
+    width: 500px;
+    margin: 10px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    padding: 50px;
+}
+
+.form-row {
+    display:flex;
+    flex-direction: column;
+}
+
+.form-row {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Shell Recharge</title>
+    <link rel="stylesheet" href="style-template.css">
+
+<body>
+    <div id="navbar" class="navbar">
+        <div class="logo" id="logo">
+            <img src="assets/logo.png" alt="">
+        </div>
+    </div>
+    <div class="main-container" id="main-container">
+        <div id="home" class="home">
+            <div class="dav-login" id="login">
+                <div class ="title">Sign In</div>
+                <form class="dav-form" id='usernamePasswordForm' data-id="usernamePasswordForm">
+    
+                    <input class="dav-text-input" placeholder="E-mail" data-id="username-input" id="username" name="username"
+                        type="text" autocomplete="on" value="" />
+    
+                    <input class="dav-text-input" placeholder="Password" data-id="password-input"
+                        id="password" name="password" type="password" autocomplete="on" value="" />
+    
+                    <button id="login" class="dav-button"
+                        data-id="button" type="submit" data-skcomponent="skbutton" data-skbuttontype="form-submit"
+                        data-skform="usernamePasswordForm" data-skbuttonvalue="submit">
+                        Sign On
+                    </button>
+
+                    <button id="magic-link" class="dav-button"
+                        data-id="button" type="submit" data-skcomponent="skbutton" data-skbuttontype="form-submit"
+                        data-skform="usernamePasswordForm" data-skbuttonvalue="magic-link">
+                        Magic Link Login
+                    </button>
+    
+                    <button id="forgotPassword" type="submit" class="dav-button-link" data-skcomponent="skbutton"
+                        data-skbuttontype="form-submit" data-skform="usernamePasswordForm"
+                        data-skbuttonvalue="forgotPassword">
+                        Forgot Password                  
+                    </button>
+    
+                    <button id="register" type="submit" class="dav-button-link" data-skcomponent="skbutton"
+                        data-skbuttontype="form-submit" data-skform="usernamePasswordForm"
+                        data-skbuttonvalue="registerUser">
+                        Register
+                    </button>
+
+                    <div class="dav-divider"></div>
+
+                    <button id="gogle" type="submit" class="dav-button google" data-skcomponent="skbutton"
+                        data-skbuttontype="form-submit" data-skform="usernamePasswordForm"
+                        data-skbuttonvalue="google">
+                        Google Login
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

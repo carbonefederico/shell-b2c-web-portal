@@ -1,0 +1,119 @@
+html, body {
+    font-family: Shell Futura,Futura,Arial,sans-serif;
+    margin: 0px;
+    height: 100%;
+    color: #595959;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo-img {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.main-container {
+    height: 100%;
+}
+
+.index {
+    height: 100%;
+    background-image: url("assets/background.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+.home {
+    height: 100%;
+    background-image: url("assets/background.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+.landing {
+    color: white;
+    position:relative;
+    top: 30%;
+    left: 10%;
+    width: 550px;
+}
+
+.landing .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+.landing .message {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.button {
+    width: 114px;
+    height: 48px;
+    background: #282c5d;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    border: unset;
+    transition: opacity .1s linear;
+    text-align: center; 
+    cursor: pointer;
+}
+
+.login {
+    display: flex;
+    gap: 15px;
+}
+
+.login-button {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.dav-form {
+    display:flex;
+    gap: 10px;
+}
+
+.dav-text-input {
+    height: 30px;
+    width: 200px;
+    border-color: grey;
+    padding:5px;
+    font-size: 1rem;
+}
+
+.dav-button {
+    color: #fff;
+    background-color: #0097A9;
+    border-color: #0097A9;
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 0px;
+}
+
+
+dav-reg-message {
+    display: flex;
+    flex-direction: row;
+}
