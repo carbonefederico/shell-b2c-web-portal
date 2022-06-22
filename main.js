@@ -71,5 +71,5 @@ function showSpinner () {
 }
 
 function hideSpinner () {
-   hideEelement ("wait-div");
+    hideElement ("wait-div");
 }
