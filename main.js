@@ -67,7 +67,7 @@ function hideElement(id) {
 }
 
 function showSpinner () {
-    showElement ("wait-div");
+    displayElement ("wait-div");
 }
 
 function hideSpinner () {
