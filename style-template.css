@@ -29,7 +29,10 @@ html, body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(246, 246, 246);
+    background-image: url("https://shell-b2c-web-portal.glitch.me/assets/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
 }
 
 .home {
@@ -38,7 +41,7 @@ html, body {
     justify-content: center;
     height: 1000px;
     width: 100%;
-    background-image: url("assets/background.jpeg") ;
+    background-image: url("https://shell-b2c-web-portal.glitch.me/assets/background.jpeg") ;
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
@@ -68,6 +71,14 @@ html, body {
     color: red;
     text-align: center;
     padding-top: 10px;
+}
+
+.title {
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .dav-form {
@@ -118,25 +129,19 @@ html, body {
     flex-direction: row;
     background-color: white;
     padding: 30px;
+    box-shadow: 14px 10px 10px -7px rgba(0,0,0,0.4);
 }
 
 .dav-reg-message .header {
     margin-bottom: 20px;
 }
 
-.dav-reg-message .title {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
 .dav-reg-message .message {
-    
     margin-bottom: 20px;
 }
 
 .dav-reg-message .list {
     padding: 20px;
-    
 }
 
 .reg-message-title {
@@ -162,4 +167,8 @@ html, body {
 
 .form-row {
     margin-bottom: 30px;
+}
+
+.hidden-button{
+    display: none;
 }

@@ -4,7 +4,7 @@ let config = {
     azEndpoint: "/authorize",
     logoutEndpoint: "/signoff",
     clientId: "fb4871d1-1b34-40a9-9f07-24933742e7d1",
-    redirectUri: "http://127.0.0.1:5500"
+    redirectUri: "https://shell-b2c-web-portal.glitch.me"
 }
 
 const oidcClient = createClient (config); 
@@ -17,10 +17,12 @@ window.onload = async () => {
     document.getElementById ("logout-button").addEventListener ("click", (e) => logout ());
     if (window.location.search.includes ("code=")) {
         console.log ("Redirect from OIDC authorization");
+        showSpinner ();
         await oidcClient.handleRedirectBack ();
         console.log (oidcClient.getOidcClaims ());
         console.log (oidcClient.getAccessToken());
         window.history.replaceState({}, document.title, window.location.pathname);
+        hideSpinner ();
         updateUI ();
     }
 }
@@ -64,4 +66,10 @@ function hideElement(id) {
     document.getElementById(id).classList.add("hidden");
 }
 
+function showSpinner () {
+    showElement ("wait-div");
+}
 
+function hideSpinner () {
+   hideEelement ("wait-div");
+}

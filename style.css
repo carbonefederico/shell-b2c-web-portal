@@ -117,3 +117,22 @@ dav-reg-message {
     display: flex;
     flex-direction: row;
 }
+
+.wait-div {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.603);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner {
+    color: grey;
+}
+.hidden {
+    display: none;
+}
